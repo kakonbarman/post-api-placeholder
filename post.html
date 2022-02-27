@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Placeholder Posts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-center my-8 text-blue-400">JSON Placeholder Posts</h1>
+    <div id="post-container">
+
+    </div>
+    
+    <!-- modal show info -->
+    <div id="modal" class="border shadow-xl hidden fixed top-0 left-0 right-0 mx-auto rounded p-5 mt-28 w-96 bg-gray-200">
+        <div id="post-info-container" class="relative">
+           
+        </div>
+    </div>
+
+    <!-- loading spinner image -->
+    <img id="loading-spinner" class="mx-auto hidden" src="images/loading.gif" alt="">
+
+    <!-- javascript -->
+    <script src="js/post.js"></script>
+</body>
+</html>
